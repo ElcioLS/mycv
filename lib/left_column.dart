@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:mycv/body.dart';
 import 'package:mycv/themes.dart';
 import 'package:responsive_builder/responsive_builder.dart';
 
+import 'about_me.dart';
 import 'personal_avatar.dart';
 
 class LeftColumn extends StatelessWidget {
@@ -14,9 +16,13 @@ class LeftColumn extends StatelessWidget {
     return Container(
       width: MediaQuery.of(context).size.width / 3 * 1,
       color: primaryColor,
-      child: const Column(
+      child: Column(
         children: [
-          PersonalAvatar(),
+          const PersonalAvatar(),
+          const Body(),
+          AboutMe(
+            sizingInformation: sizingInformation,
+          ),
         ],
       ),
     );

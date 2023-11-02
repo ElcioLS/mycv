@@ -15,6 +15,7 @@ dependencies:
   cupertino_icons: ^1.0.2
   responsive_builder: any
   device_preview: any
+  google_fonts: any
 
 
 dev_dependencies:
