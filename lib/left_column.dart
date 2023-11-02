@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:mycv/body.dart';
+import 'package:mycv/skills.dart';
 import 'package:mycv/themes.dart';
 import 'package:responsive_builder/responsive_builder.dart';
 
@@ -20,9 +21,10 @@ class LeftColumn extends StatelessWidget {
         children: [
           const PersonalAvatar(),
           const Body(),
-          AboutMe(
-            sizingInformation: sizingInformation,
-          ),
+          AboutMe(sizingInformation: sizingInformation),
+          const Body(),
+          Skills(sizingInformation: sizingInformation),
+          // DetailSkill()
         ],
       ),
     );

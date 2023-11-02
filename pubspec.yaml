@@ -16,6 +16,7 @@ dependencies:
   responsive_builder: any
   device_preview: any
   google_fonts: any
+  percent_indicator: any
 
 
 dev_dependencies:

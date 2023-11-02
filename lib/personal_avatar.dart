@@ -7,6 +7,7 @@ class PersonalAvatar extends StatelessWidget {
   Widget build(BuildContext context) {
     return Image.asset(
       'assets/images/eu.jpg',
+      height: 300,
       fit: BoxFit.cover,
     );
   }
