@@ -4,6 +4,9 @@ import 'package:flutter/material.dart';
 
 import 'home_page.dart';
 
+// const primaryColor = Colors.black;
+// const backgroundColor = Color(0xFFEDF1F4);
+
 void main() {
   runApp(
     DevicePreview(
