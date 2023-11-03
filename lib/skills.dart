@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:responsive_builder/responsive_builder.dart';
 
-import 'left/detail_skill.dart';
+import 'ui/left/detail_skill.dart';
 
 class Skills extends StatelessWidget {
   const Skills({
@@ -40,21 +40,6 @@ class Skills extends StatelessWidget {
               ],
             ),
           ),
-          // Text(
-          //   'Conhecimento avando em Flutter, com enfase em integrações de APIs. \n  Testes de interação. habilidades UI e UX, etc...',
-          //   textAlign:
-          //       sizingInformation.deviceScreenType == DeviceScreenType.mobile
-          //           ? TextAlign.justify
-          //           : TextAlign.left,
-          //   style: GoogleFonts.montserrat(
-          //     fontSize: 20,
-          //     color:
-          //         sizingInformation.deviceScreenType == DeviceScreenType.desktop
-          //             ? Colors.white
-          //             : primaryColor,
-          //     fontWeight: FontWeight.w100,
-          //   ),
-          // ),
           DetailSkill(
               sizingInformation: sizingInformation,
               skillName: 'Flutter',
@@ -70,7 +55,7 @@ class Skills extends StatelessWidget {
           DetailSkill(
               sizingInformation: sizingInformation,
               skillName: 'Python',
-              skillValue: 0.5),
+              skillValue: 0.8),
           DetailSkill(
               sizingInformation: sizingInformation,
               skillName: 'C++',

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:mycv/themes.dart';
+import 'package:mycv/ui/const/themes.dart';
 import 'package:responsive_builder/responsive_builder.dart';
 
 class NameWidget extends StatelessWidget {

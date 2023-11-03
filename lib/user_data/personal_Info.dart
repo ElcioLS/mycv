@@ -1,12 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-import '../themes.dart';
+import '../ui/const/themes.dart';
 
 class PersonalInfo extends StatelessWidget {
-  const PersonalInfo({
-    super.key,
-  });
+  const PersonalInfo({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -18,7 +16,7 @@ class PersonalInfo extends StatelessWidget {
           FittedBox(
             fit: BoxFit.fitWidth,
             child: Text(
-              'Vancouver, BC, CA',
+              'Brasil',
               style: GoogleFonts.montserrat(
                 fontWeight: FontWeight.w200,
                 fontSize: 30,
@@ -29,7 +27,7 @@ class PersonalInfo extends StatelessWidget {
           FittedBox(
             fit: BoxFit.fitWidth,
             child: Text(
-              'phone: +(0)1 55593649',
+              'phone: +55(11)95559-3649',
               style: GoogleFonts.montserrat(
                 fontWeight: FontWeight.w200,
                 fontSize: 30,

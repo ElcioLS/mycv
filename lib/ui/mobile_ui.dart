@@ -1,16 +1,17 @@
 import 'package:flutter/material.dart';
 import 'package:responsive_builder/responsive_builder.dart';
 
-import '../left/about_me.dart';
-import '../left/body.dart';
 import '../personal_avatar.dart';
-import '../right/name_widget.dart';
-import '../right/personal_Info.dart';
-import '../right/projects.dart';
 import '../skills.dart';
+import '../user_data/personal_Info.dart';
+import 'left/about_me.dart';
+import 'right/name_widget.dart';
+import 'right/projects.dart';
+import 'ui_body.dart';
 
 class MobileUI extends StatelessWidget {
   final SizingInformation sizingInformation;
+
   const MobileUI({
     super.key,
     required this.sizingInformation,
@@ -20,14 +21,11 @@ class MobileUI extends StatelessWidget {
   Widget build(BuildContext context) {
     return Column(
       children: [
-        // From Left Widget
         const PersonalAvatar(),
-        const Body(),
+        const UIBody(),
         AboutMe(sizingInformation: sizingInformation),
-        const Body(),
+        const UIBody(),
         Skills(sizingInformation: sizingInformation),
-
-        //From Right Wdget
         Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
@@ -44,7 +42,7 @@ class MobileUI extends StatelessWidget {
             ),
             Projects(
               sizingInformation: sizingInformation,
-              title: 'Title',
+              title: 'Dados',
             )
           ],
         )

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:mycv/right/title_description_widget.dart';
+import 'package:mycv/ui/right/title_description_widget.dart';
 import 'package:responsive_builder/responsive_builder.dart';
 
 class Projects extends StatelessWidget {
@@ -44,21 +44,21 @@ class Projects extends StatelessWidget {
         ),
         TitleDescriptionWidget(
           sizingInformation: sizingInformation,
-          title: 'Aplicativo Delivery',
+          title: 'Educação',
           description:
-              'Aplicativo totalmente funcional, completo com várias telas e integração de Api Pix',
+              'Software Engineer, 2024 \nHARVARD CS50 2023 \nPostgraduate Cyber Security 2019',
         ),
         TitleDescriptionWidget(
           sizingInformation: sizingInformation,
-          title: 'Aplicativo Delivery',
+          title: 'Languages',
           description:
-              'Aplicativo totalmente funcional, completo com várias telas e integração de Api Pix',
+              'Português BR - Fluente \nInglês EN - B1 - Intermediário \nFrancês FR - Iniciante',
         ),
         TitleDescriptionWidget(
           sizingInformation: sizingInformation,
-          title: 'Aplicativo Delivery',
+          title: 'Portfólio',
           description:
-              'Aplicativo totalmente funcional, completo com várias telas e integração de Api Pix',
+              '*Aplicativo Delivery, InovaConcipa, totalmente funcional, completo com várias telas e integração de Api PIX Sicoob. \n*Aplicativo de criação de currículos gratuito, com funcções especiais e integração com API Chat-GPT 3.5',
         ),
       ],
     );

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:mycv/themes.dart';
+import 'package:mycv/ui/const/themes.dart';
 import 'package:responsive_builder/responsive_builder.dart';
 
 class AboutMe extends StatelessWidget {
@@ -24,7 +24,7 @@ class AboutMe extends StatelessWidget {
                 Row(
                   children: [
                     Text(
-                      'About me'.toUpperCase(),
+                      'Quem sou'.toUpperCase(),
                       style: GoogleFonts.montserrat(
                         fontSize: 50,
                         color: sizingInformation.deviceScreenType ==
@@ -40,7 +40,7 @@ class AboutMe extends StatelessWidget {
             ),
           ),
           Text(
-            'Sou desenvolvedor mobile especialista em Flutter com amplo conhecimento, etc...',
+            'Sou Engenheiro de Software e desenvolvedor mobile especialista em Flutter Dart com conhecimento em diversas áres de TI, APIs, Serviços Rest, Firebird, etc. Também programo em Python e estou iniciando em C++ com objetivo de alcaçar a senioridade em Desenvolvimento CrossPlatform para Flutter/Dart e Python',
             textAlign:
                 sizingInformation.deviceScreenType == DeviceScreenType.mobile
                     ? TextAlign.justify

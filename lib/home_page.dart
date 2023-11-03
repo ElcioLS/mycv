@@ -5,7 +5,9 @@ import 'ui/desktop_ui.dart';
 import 'ui/mobile_ui.dart';
 
 class HomePage extends StatelessWidget {
-  const HomePage({super.key});
+  const HomePage({
+    super.key,
+  });
 
   @override
   Widget build(BuildContext context) {

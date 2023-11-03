@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:responsive_builder/responsive_builder.dart';
 
-import '../themes.dart';
+import '../const/themes.dart';
 
 class TitleDescriptionWidget extends StatelessWidget {
   final String title;

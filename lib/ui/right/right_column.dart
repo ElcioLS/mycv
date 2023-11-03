@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:responsive_builder/responsive_builder.dart';
 
+import '../../user_data/personal_Info.dart';
 import 'name_widget.dart';
-import 'personal_Info.dart';
 import 'projects.dart';
 
 class RightColumn extends StatelessWidget {
@@ -17,7 +17,7 @@ class RightColumn extends StatelessWidget {
   Widget build(BuildContext context) {
     return Expanded(
       child: Padding(
-        padding: const EdgeInsets.symmetric(horizontal: 1.0),
+        padding: const EdgeInsets.symmetric(horizontal: 10.0),
         child: Container(
           margin: const EdgeInsets.only(top: 30),
           child: Column(
@@ -32,15 +32,7 @@ class RightColumn extends StatelessWidget {
               ),
               Projects(
                 sizingInformation: sizingInformation,
-                title: 'Portfólio',
-              ),
-              Projects(
-                sizingInformation: sizingInformation,
-                title: 'Education',
-              ),
-              Projects(
-                sizingInformation: sizingInformation,
-                title: 'Experience',
+                title: 'DADOS',
               ),
             ],
           ),
