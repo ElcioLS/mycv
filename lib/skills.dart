@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:mycv/detail_skill.dart';
 import 'package:responsive_builder/responsive_builder.dart';
+
+import 'left/detail_skill.dart';
 
 class Skills extends StatelessWidget {
   const Skills({

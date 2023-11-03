@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:mycv/body.dart';
 import 'package:mycv/skills.dart';
 import 'package:mycv/themes.dart';
 import 'package:responsive_builder/responsive_builder.dart';
 
+import '../personal_avatar.dart';
 import 'about_me.dart';
-import 'personal_avatar.dart';
+import 'body.dart';
 
 class LeftColumn extends StatelessWidget {
   final SizingInformation sizingInformation;

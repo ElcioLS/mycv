@@ -3,7 +3,7 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:percent_indicator/percent_indicator.dart';
 import 'package:responsive_builder/responsive_builder.dart';
 
-import 'themes.dart';
+import '../themes.dart';
 
 class DetailSkill extends StatelessWidget {
   final SizingInformation sizingInformation;
